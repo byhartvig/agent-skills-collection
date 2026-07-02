@@ -1,0 +1,66 @@
+name: Auto Release on Version Bump
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - SKILL.md
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read version from SKILL.md
+        id: version
+        run: |
+          RAW=$(grep -m1 'version:' SKILL.md | sed 's/.*version: *"\?\([^"]*\)"\?.*/\1/')
+          # Normalize to X.Y.Z
+          if [[ "$RAW" =~ ^[0-9]+\.[0-9]+$ ]]; then
+            VERSION="${RAW}.0"
+          else
+            VERSION="$RAW"
+          fi
+          echo "version=v${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "Detected version: v${VERSION}"
+
+      - name: Check if tag already exists
+        id: tag_check
+        run: |
+          if git rev-parse "${{ steps.version.outputs.version }}" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate release notes from git log
+        if: steps.tag_check.outputs.exists == 'false'
+        id: notes
+        run: |
+          PREV_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          if [ -z "$PREV_TAG" ]; then
+            LOG=$(git log --oneline | head -20)
+          else
+            LOG=$(git log "${PREV_TAG}..HEAD" --oneline)
+          fi
+          echo "notes<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$LOG" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Create tag and release
+        if: steps.tag_check.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${{ steps.version.outputs.version }}"
+          git tag "$TAG"
+          git push origin "$TAG"
+          gh release create "$TAG" \
+            --title "$TAG" \
+            --notes "${{ steps.notes.outputs.notes }}"

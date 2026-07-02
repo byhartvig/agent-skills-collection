@@ -1,0 +1,374 @@
+# Agent Skills Collection
+
+A curated, categorized library of **3,109 agent skills** across **12 categories** — full skills (each with its `SKILL.md` plus any assets, scripts, and references), gathered from official vendor teams and the community.
+
+Skills are plain folders containing a `SKILL.md`. They work with Claude Code, Cowork, Codex, Cursor, Gemini CLI, and any agent that supports the standard skill format — drop a skill folder into your agent's skills directory.
+
+## Sources & attribution
+
+This collection is assembled from:
+
+- **[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** — the index used to locate official + community skills, surfaced via [officialskills.sh](https://officialskills.sh).
+- **[open-design](https://github.com/nexu-io/html-anything)** and its curated design catalogue — the design/UI/template skills.
+- The individual upstream repositories linked in each category below. All credit and licensing remain with the original authors.
+
+> ⚠️ **Security note:** these skills are collected, not audited. Skills can contain prompt injection or unsafe patterns. Review any skill before running it in an agent with tool access.
+
+## Contents
+
+- [⭐ Best UI/UX (curated)](#best-ui/ux-curated) — 53 skills
+- [Design, UI & Templates](#design-ui--templates) — 302 skills
+- [Figma & Design Tools](#figma--design-tools) — 12 skills
+- [Frontend & Frameworks](#frontend--frameworks) — 47 skills
+- [AI, Image, Video & Audio](#ai-image-video--audio) — 39 skills
+- [Databases](#databases) — 43 skills
+- [Authentication](#authentication) — 50 skills
+- [Email & Notion](#email--notion) — 9 skills
+- [Marketing & Advertising](#marketing--advertising) — 943 skills
+- [Development & Testing](#development--testing) — 1,580 skills
+- [Context Engineering](#context-engineering) — 22 skills
+- [Agent Workflows](#agent-workflows) — 9 skills
+
+
+## ⭐ Best UI/UX (curated)
+
+A hand-picked set of the highest-leverage skills for real UI/UX work — direction, design systems, implementation, motion, review, platform guidelines, and flows.  
+**53 skills** · folder: [`best-ui-ux/`](best-ui-ux)
+
+<details><summary>Browse all 31 entries</summary>
+
+- [`apple-hig`](best-ui-ux/apple-hig)
+- [`baseline-ui`](best-ui-ux/baseline-ui)
+- [`brand-guidelines`](best-ui-ux/brand-guidelines)
+- [`color-expert`](best-ui-ux/color-expert)
+- [`design-brief`](best-ui-ux/design-brief)
+- [`design-consultation`](best-ui-ux/design-consultation)
+- [`design-review`](best-ui-ux/design-review)
+- [`fixing-accessibility`](best-ui-ux/fixing-accessibility)
+- [`fixing-motion-performance`](best-ui-ux/fixing-motion-performance)
+- [`frontend-design`](best-ui-ux/frontend-design)
+- [`frontend-dev`](best-ui-ux/frontend-dev)
+- [`gpt-tasteskill`](best-ui-ux/gpt-tasteskill)
+- [`gsap-core`](best-ui-ux/gsap-core)
+- [`gsap-react`](best-ui-ux/gsap-react)
+- [`gsap-scrolltrigger`](best-ui-ux/gsap-scrolltrigger)
+- [`gsap-timeline`](best-ui-ux/gsap-timeline)
+- [`hand-drawn-diagrams`](best-ui-ux/hand-drawn-diagrams)
+- [`image-to-code-skill`](best-ui-ux/image-to-code-skill)
+- [`imagegen-frontend-mobile`](best-ui-ux/imagegen-frontend-mobile)
+- [`imagegen-frontend-web`](best-ui-ux/imagegen-frontend-web)
+- [`impeccable-design-polish`](best-ui-ux/impeccable-design-polish)
+- [`login-flow`](best-ui-ux/login-flow)
+- [`platform-design`](best-ui-ux/platform-design)
+- [`redesign-skill`](best-ui-ux/redesign-skill)
+- [`soft-skill`](best-ui-ux/soft-skill)
+- [`stitch-skill`](best-ui-ux/stitch-skill)
+- [`swiftui-design`](best-ui-ux/swiftui-design)
+- [`taste-skill`](best-ui-ux/taste-skill)
+- [`theme-factory`](best-ui-ux/theme-factory)
+- [`ui-ux-pro-max`](best-ui-ux/ui-ux-pro-max)
+- [`web-artifacts-builder`](best-ui-ux/web-artifacts-builder)
+
+</details>
+
+
+## Design, UI & Templates
+
+The full open-design catalogue: aesthetic direction, design systems, web prototypes, decks, posters, image/video templates, plus bundled upstream collections.  
+**302 skills** · folder: [`design-ui-and-templates/`](design-ui-and-templates)
+
+Includes bundled upstream collections under [`_upstream-collections/`](design-ui-and-templates/_upstream-collections): `bitwize-music-studio__claude-ai-music-skills`, `coreyhaines31__marketingskills`, `ehmo__platform-design-skills`, `fal-ai-community__skills`, `flutter__skills`, `ibelick__ui-skills`, `openai__skills`, `pbakaus__impeccable`, `raintree-technology__apple-hig-skills`, `replicate__skills`, `vercel-labs__skills`.
+
+<details><summary>Browse all 93 entries</summary>
+
+- [`ad-creative`](design-ui-and-templates/ad-creative)
+- [`agent-browser`](design-ui-and-templates/agent-browser)
+- [`algorithmic-art`](design-ui-and-templates/algorithmic-art)
+- [`article-magazine`](design-ui-and-templates/article-magazine)
+- [`artifacts-builder`](design-ui-and-templates/artifacts-builder)
+- [`brainstorming`](design-ui-and-templates/brainstorming)
+- [`brand-guidelines`](design-ui-and-templates/brand-guidelines)
+- [`brandkit`](design-ui-and-templates/brandkit)
+- [`brutalist-skill`](design-ui-and-templates/brutalist-skill)
+- [`canvas-design`](design-ui-and-templates/canvas-design)
+- [`card-twitter`](design-ui-and-templates/card-twitter)
+- [`card-xiaohongshu`](design-ui-and-templates/card-xiaohongshu)
+- [`color-expert`](design-ui-and-templates/color-expert)
+- [`competitive-ads-extractor`](design-ui-and-templates/competitive-ads-extractor)
+- [`copywriting`](design-ui-and-templates/copywriting)
+- [`creative-director`](design-ui-and-templates/creative-director)
+- [`d3-visualization`](design-ui-and-templates/d3-visualization)
+- [`data-report`](design-ui-and-templates/data-report)
+- [`deck-guizang-editorial`](design-ui-and-templates/deck-guizang-editorial)
+- [`deck-open-slide-canvas`](design-ui-and-templates/deck-open-slide-canvas)
+- [`deck-swiss-international`](design-ui-and-templates/deck-swiss-international)
+- [`design-consultation`](design-ui-and-templates/design-consultation)
+- [`design-review`](design-ui-and-templates/design-review)
+- [`doc-kami-parchment`](design-ui-and-templates/doc-kami-parchment)
+- [`docx`](design-ui-and-templates/docx)
+- [`domain-name-brainstormer`](design-ui-and-templates/domain-name-brainstormer)
+- [`frame-data-chart-nyt`](design-ui-and-templates/frame-data-chart-nyt)
+- [`frame-flowchart-sticky`](design-ui-and-templates/frame-flowchart-sticky)
+- [`frame-glitch-title`](design-ui-and-templates/frame-glitch-title)
+- [`frame-light-leak-cinema`](design-ui-and-templates/frame-light-leak-cinema)
+- [`frame-liquid-bg-hero`](design-ui-and-templates/frame-liquid-bg-hero)
+- [`frame-logo-outro`](design-ui-and-templates/frame-logo-outro)
+- [`frame-macos-notification`](design-ui-and-templates/frame-macos-notification)
+- [`frontend-design`](design-ui-and-templates/frontend-design)
+- [`frontend-dev`](design-ui-and-templates/frontend-dev)
+- [`frontend-slides`](design-ui-and-templates/frontend-slides)
+- [`full-page-screenshot`](design-ui-and-templates/full-page-screenshot)
+- [`gif-sticker-maker`](design-ui-and-templates/gif-sticker-maker)
+- [`gpt-tasteskill`](design-ui-and-templates/gpt-tasteskill)
+- [`gsap-core`](design-ui-and-templates/gsap-core)
+- [`gsap-frameworks`](design-ui-and-templates/gsap-frameworks)
+- [`gsap-performance`](design-ui-and-templates/gsap-performance)
+- [`gsap-plugins`](design-ui-and-templates/gsap-plugins)
+- [`gsap-react`](design-ui-and-templates/gsap-react)
+- [`gsap-scrolltrigger`](design-ui-and-templates/gsap-scrolltrigger)
+- [`gsap-timeline`](design-ui-and-templates/gsap-timeline)
+- [`gsap-utils`](design-ui-and-templates/gsap-utils)
+- [`hand-drawn-diagrams`](design-ui-and-templates/hand-drawn-diagrams)
+- [`hatch-pet`](design-ui-and-templates/hatch-pet)
+- [`image-enhancer`](design-ui-and-templates/image-enhancer)
+- [`image-to-code-skill`](design-ui-and-templates/image-to-code-skill)
+- [`imagegen`](design-ui-and-templates/imagegen)
+- [`imagegen-frontend-mobile`](design-ui-and-templates/imagegen-frontend-mobile)
+- [`imagegen-frontend-web`](design-ui-and-templates/imagegen-frontend-web)
+- [`marketing-psychology`](design-ui-and-templates/marketing-psychology)
+- [`minimalist-skill`](design-ui-and-templates/minimalist-skill)
+- [`minimax-docx`](design-ui-and-templates/minimax-docx)
+- [`minimax-pdf`](design-ui-and-templates/minimax-pdf)
+- [`mockup-device-3d`](design-ui-and-templates/mockup-device-3d)
+- [`nanobanana-ppt`](design-ui-and-templates/nanobanana-ppt)
+- [`output-skill`](design-ui-and-templates/output-skill)
+- [`pdf`](design-ui-and-templates/pdf)
+- [`plan-design-review`](design-ui-and-templates/plan-design-review)
+- [`poster-hero`](design-ui-and-templates/poster-hero)
+- [`ppt-keynote`](design-ui-and-templates/ppt-keynote)
+- [`pptx`](design-ui-and-templates/pptx)
+- [`pptx-generator`](design-ui-and-templates/pptx-generator)
+- [`redesign-skill`](design-ui-and-templates/redesign-skill)
+- [`resume-modern`](design-ui-and-templates/resume-modern)
+- [`screenshot`](design-ui-and-templates/screenshot)
+- [`shader-dev`](design-ui-and-templates/shader-dev)
+- [`slack-gif-creator`](design-ui-and-templates/slack-gif-creator)
+- [`social-reddit-card`](design-ui-and-templates/social-reddit-card)
+- [`social-spotify-card`](design-ui-and-templates/social-spotify-card)
+- [`social-x-post-card`](design-ui-and-templates/social-x-post-card)
+- [`soft-skill`](design-ui-and-templates/soft-skill)
+- [`speech`](design-ui-and-templates/speech)
+- [`stitch-skill`](design-ui-and-templates/stitch-skill)
+- [`swiftui-design`](design-ui-and-templates/swiftui-design)
+- [`taste-skill`](design-ui-and-templates/taste-skill)
+- [`taste-skill-v1`](design-ui-and-templates/taste-skill-v1)
+- [`theme-factory`](design-ui-and-templates/theme-factory)
+- [`ui-ux-pro-max`](design-ui-and-templates/ui-ux-pro-max)
+- [`venice-audio-music`](design-ui-and-templates/venice-audio-music)
+- [`venice-audio-speech`](design-ui-and-templates/venice-audio-speech)
+- [`venice-image-edit`](design-ui-and-templates/venice-image-edit)
+- [`venice-image-generate`](design-ui-and-templates/venice-image-generate)
+- [`venice-video`](design-ui-and-templates/venice-video)
+- [`vfx-text-cursor`](design-ui-and-templates/vfx-text-cursor)
+- [`video-downloader`](design-ui-and-templates/video-downloader)
+- [`video-hyperframes`](design-ui-and-templates/video-hyperframes)
+- [`web-artifacts-builder`](design-ui-and-templates/web-artifacts-builder)
+- [`youtube-clipper`](design-ui-and-templates/youtube-clipper)
+
+</details>
+
+
+## Figma & Design Tools
+
+Figma MCP workflows — reading designs into code, generating designs/libraries, and Code Connect.  
+**12 skills** · folder: [`figma-and-design-tools/`](figma-and-design-tools)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`figma`](figma-and-design-tools/figma) | 12 | [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) |
+
+
+## Frontend & Frameworks
+
+Framework-specific engineering skills for Next.js and Expo.  
+**47 skills** · folder: [`frontend-and-frameworks/`](frontend-and-frameworks)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`expo`](frontend-and-frameworks/expo) | 19 | [expo/skills](https://github.com/expo/skills) |
+| [`shadcn-ui`](frontend-and-frameworks/shadcn-ui) | 1 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) |
+| [`sleek-design`](frontend-and-frameworks/sleek-design) | 1 | [sleekdotdesign/agent-skills](https://github.com/sleekdotdesign/agent-skills) |
+| [`turborepo`](frontend-and-frameworks/turborepo) | 1 | [vercel/turborepo](https://github.com/vercel/turborepo) |
+| [`vercel-agent-skills`](frontend-and-frameworks/vercel-agent-skills) | 9 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [`vercel-ai`](frontend-and-frameworks/vercel-ai) | 11 | [vercel/ai](https://github.com/vercel/ai) |
+| [`vercel-next`](frontend-and-frameworks/vercel-next) | 3 | [vercel/next.js/tree/canary/skills](https://github.com/vercel/next.js/tree/canary/skills) |
+| [`wshobson-agents`](frontend-and-frameworks/wshobson-agents) | 2 | [wshobson/agents](https://github.com/wshobson/agents) |
+
+
+## AI, Image, Video & Audio
+
+OpenAI's curated skills — image generation, Sora video, speech, Figma, Notion, deploys and more.  
+**39 skills** · folder: [`ai-and-media/`](ai-and-media)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`openai`](ai-and-media/openai) | 39 | [openai/skills](https://github.com/openai/skills) |
+
+
+## Databases
+
+Postgres and serverless database best practices from Supabase and Neon.  
+**43 skills** · folder: [`databases/`](databases)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`convex`](databases/convex) | 6 | [get-convex/agent-skills](https://github.com/get-convex/agent-skills) |
+| [`drizzle`](databases/drizzle) | 1 | [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) |
+| [`duckdb`](databases/duckdb) | 9 | [duckdb/duckdb-skills](https://github.com/duckdb/duckdb-skills) |
+| [`firebase`](databases/firebase) | 11 | [firebase/agent-skills](https://github.com/firebase/agent-skills) |
+| [`neon`](databases/neon) | 9 | [neondatabase/agent-skills](https://github.com/neondatabase/agent-skills) |
+| [`planetscale`](databases/planetscale) | 4 | [planetscale/database-skills](https://github.com/planetscale/database-skills) |
+| [`supabase`](databases/supabase) | 2 | [supabase/agent-skills](https://github.com/supabase/agent-skills) |
+| [`turso`](databases/turso) | 1 | [tursodatabase/agent-skills](https://github.com/tursodatabase/agent-skills) |
+
+
+## Authentication
+
+Auth SDKs and flows from Better Auth and Auth0 across many frameworks.  
+**50 skills** · folder: [`authentication/`](authentication)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`auth0`](authentication/auth0) | 45 | [auth0/agent-skills](https://github.com/auth0/agent-skills) |
+| [`better-auth`](authentication/better-auth) | 5 | [better-auth/skills](https://github.com/better-auth/skills) |
+
+
+## Email & Notion
+
+Transactional email (Resend) and Notion workspace automation.  
+**9 skills** · folder: [`email-and-notion/`](email-and-notion)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`notion`](email-and-notion/notion) | 4 | [makenotion/notion-cookbook](https://github.com/makenotion/notion-cookbook) |
+| [`resend`](email-and-notion/resend) | 5 | [resend/resend-skills](https://github.com/resend/resend-skills) |
+
+
+## Marketing & Advertising
+
+SaaS marketing, SEO, CRO, copywriting, ads, and growth — official (Corey Haines, Kim Barrett) and community.  
+**943 skills** · folder: [`marketing-and-advertising/`](marketing-and-advertising)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`ai-marketing-skills`](marketing-and-advertising/ai-marketing-skills) | 23 | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
+| [`aso-skills`](marketing-and-advertising/aso-skills) | 40 | [Eronred/aso-skills](https://github.com/Eronred/aso-skills) |
+| [`beautiful-prose`](marketing-and-advertising/beautiful-prose) | 1 | [SHADOWPR0/beautiful_prose](https://github.com/SHADOWPR0/beautiful_prose) |
+| [`claude-seo`](marketing-and-advertising/claude-seo) | 33 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) |
+| [`corey-haines`](marketing-and-advertising/corey-haines) | 46 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
+| [`creative-director`](marketing-and-advertising/creative-director) | 1 | [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) |
+| [`dev-gtm`](marketing-and-advertising/dev-gtm) | 588 | [infrasity-labs/dev-gtm-claude-skills](https://github.com/infrasity-labs/dev-gtm-claude-skills) |
+| [`digital-marketing-pro`](marketing-and-advertising/digital-marketing-pro) | 158 | [indranilbanerjee/digital-marketing-pro](https://github.com/indranilbanerjee/digital-marketing-pro) |
+| [`email-marketing-bible`](marketing-and-advertising/email-marketing-bible) | 1 | [CosmoBlk/email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) |
+| [`humanizer`](marketing-and-advertising/humanizer) | 1 | [blader/humanizer](https://github.com/blader/humanizer) |
+| [`kim-barrett`](marketing-and-advertising/kim-barrett) | 12 | [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) |
+| [`notfair`](marketing-and-advertising/notfair) | 18 | [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) |
+| [`postiz-agent`](marketing-and-advertising/postiz-agent) | 2 | [gitroomhq/postiz-agent](https://github.com/gitroomhq/postiz-agent) |
+| [`tweetclaw`](marketing-and-advertising/tweetclaw) | 1 | [Xquik-dev/tweetclaw](https://github.com/Xquik-dev/tweetclaw) |
+| [`unslop`](marketing-and-advertising/unslop) | 15 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) |
+| [`wonda`](marketing-and-advertising/wonda) | 1 | [degausai/wonda](https://github.com/degausai/wonda) |
+| [`x-article-publisher`](marketing-and-advertising/x-article-publisher) | 1 | [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill) |
+| [`x-twitter-scraper`](marketing-and-advertising/x-twitter-scraper) | 1 | [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) |
+
+
+## Development & Testing
+
+A large community collection: testing, code review, iOS/Swift, Rails, security, UI, agents, and dev workflows.  
+**1,580 skills** · folder: [`development-and-testing/`](development-and-testing)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`anthropics-skills`](development-and-testing/anthropics-skills) | 2 | [anthropics/skills](https://github.com/anthropics/skills) |
+| [`app-store-connect-cli`](development-and-testing/app-store-connect-cli) | 23 | [rudrankriyam/app-store-connect-cli-skills](https://github.com/rudrankriyam/app-store-connect-cli-skills) |
+| [`aws-skills`](development-and-testing/aws-skills) | 6 | [zxkane/aws-skills](https://github.com/zxkane/aws-skills) |
+| [`claude-bootstrap`](development-and-testing/claude-bootstrap) | 68 | [alinaqi/claude-bootstrap](https://github.com/alinaqi/claude-bootstrap) |
+| [`coderabbit-skills`](development-and-testing/coderabbit-skills) | 2 | [coderabbitai/skills](https://github.com/coderabbitai/skills) |
+| [`codex-collab`](development-and-testing/codex-collab) | 1 | [Kevin7Qi/codex-collab](https://github.com/Kevin7Qi/codex-collab) |
+| [`cybersecurity-skills`](development-and-testing/cybersecurity-skills) | 817 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) |
+| [`dembrandt-skills`](development-and-testing/dembrandt-skills) | 40 | [dembrandt/dembrandt-skills](https://github.com/dembrandt/dembrandt-skills) |
+| [`dev-agent-skills`](development-and-testing/dev-agent-skills) | 5 | [fvadicamo/dev-agent-skills](https://github.com/fvadicamo/dev-agent-skills) |
+| [`fable-codex`](development-and-testing/fable-codex) | 1 | [baskduf/FableCodex](https://github.com/baskduf/FableCodex) |
+| [`ffuf-skill`](development-and-testing/ffuf-skill) | 1 | [jthack/ffuf_claude_skill](https://github.com/jthack/ffuf_claude_skill) |
+| [`hand-drawn-diagrams`](development-and-testing/hand-drawn-diagrams) | 1 | [muthuishere/hand-drawn-diagrams](https://github.com/muthuishere/hand-drawn-diagrams) |
+| [`ios-accessibility-audit`](development-and-testing/ios-accessibility-audit) | 1 | [ramzesenok/iOS-Accessibility-Audit-Skill](https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill) |
+| [`ios-simulator`](development-and-testing/ios-simulator) | 1 | [conorluddy/ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill) |
+| [`joannis-swift`](development-and-testing/joannis-swift) | 15 | [Joannis/claude-skills](https://github.com/Joannis/claude-skills) |
+| [`lackeyjb-playwright`](development-and-testing/lackeyjb-playwright) | 1 | [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) |
+| [`lambdatest-skills`](development-and-testing/lambdatest-skills) | 71 | [LambdaTest/agent-skills](https://github.com/LambdaTest/agent-skills) |
+| [`makepad-skills`](development-and-testing/makepad-skills) | 14 | [ZhangHanDong/makepad-skills](https://github.com/ZhangHanDong/makepad-skills) |
+| [`mattpocock-skills`](development-and-testing/mattpocock-skills) | 37 | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| [`mcollina-skills`](development-and-testing/mcollina-skills) | 11 | [mcollina/skills](https://github.com/mcollina/skills) |
+| [`metalbear-skills`](development-and-testing/metalbear-skills) | 7 | [metalbear-co/skills](https://github.com/metalbear-co/skills) |
+| [`model-hierarchy`](development-and-testing/model-hierarchy) | 1 | [zscole/model-hierarchy-skill](https://github.com/zscole/model-hierarchy-skill) |
+| [`moyu`](development-and-testing/moyu) | 15 | [uucz/moyu](https://github.com/uucz/moyu) |
+| [`neolab-context-eng-kit`](development-and-testing/neolab-context-eng-kit) | 25 | [NeoLabHQ/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) |
+| [`noizai-tts`](development-and-testing/noizai-tts) | 8 | [NoizAI/skills](https://github.com/NoizAI/skills) |
+| [`platform-design`](development-and-testing/platform-design) | 8 | [ehmo/platform-design-skills](https://github.com/ehmo/platform-design-skills) |
+| [`playwright-best-practices`](development-and-testing/playwright-best-practices) | 1 | [currents-dev/playwright-best-practices-skill](https://github.com/currents-dev/playwright-best-practices-skill) |
+| [`playwright-cli`](development-and-testing/playwright-cli) | 1 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) |
+| [`pypict-skill`](development-and-testing/pypict-skill) | 1 | [omkamal/pypict-claude-skill](https://github.com/omkamal/pypict-claude-skill) |
+| [`rails-conventions`](development-and-testing/rails-conventions) | 1 | [ethos-link/rails-conventions](https://github.com/ethos-link/rails-conventions) |
+| [`recursive-decomposition`](development-and-testing/recursive-decomposition) | 1 | [massimodeluisa/recursive-decomposition-skill](https://github.com/massimodeluisa/recursive-decomposition-skill) |
+| [`sanjay-ai-skills`](development-and-testing/sanjay-ai-skills) | 20 | [sanjay3290/ai-skills](https://github.com/sanjay3290/ai-skills) |
+| [`skill-optimizer`](development-and-testing/skill-optimizer) | 3 | [hqhq1025/skill-optimizer](https://github.com/hqhq1025/skill-optimizer) |
+| [`skill-rails-upgrade`](development-and-testing/skill-rails-upgrade) | 1 | [robzolkos/skill-rails-upgrade](https://github.com/robzolkos/skill-rails-upgrade) |
+| [`skill-seekers`](development-and-testing/skill-seekers) | 26 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) |
+| [`startup-skills`](development-and-testing/startup-skills) | 5 | [rameerez/claude-code-startup-skills](https://github.com/rameerez/claude-code-startup-skills) |
+| [`superpowers`](development-and-testing/superpowers) | 14 | [obra/superpowers](https://github.com/obra/superpowers) |
+| [`swift-patterns`](development-and-testing/swift-patterns) | 1 | [efremidze/swift-patterns-skill](https://github.com/efremidze/swift-patterns-skill) |
+| [`swiftui-expert`](development-and-testing/swiftui-expert) | 2 | [AvdLee/SwiftUI-Agent-Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) |
+| [`taste-skill`](development-and-testing/taste-skill) | 13 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) |
+| [`terraform-skill`](development-and-testing/terraform-skill) | 1 | [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) |
+| [`testdino-playwright`](development-and-testing/testdino-playwright) | 6 | [testdino-hq/playwright-skill](https://github.com/testdino-hq/playwright-skill) |
+| [`threejs-skills`](development-and-testing/threejs-skills) | 10 | [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) |
+| [`ui-skills`](development-and-testing/ui-skills) | 5 | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) |
+| [`ui-ux-pro-max`](development-and-testing/ui-ux-pro-max) | 13 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| [`understand-anything`](development-and-testing/understand-anything) | 8 | [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) |
+| [`varlock-skill`](development-and-testing/varlock-skill) | 1 | [wrsmith108/varlock-claude-skill](https://github.com/wrsmith108/varlock-claude-skill) |
+| [`vexor`](development-and-testing/vexor) | 1 | [scarletkc/vexor](https://github.com/scarletkc/vexor) |
+| [`vibe-skills`](development-and-testing/vibe-skills) | 263 | [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) |
+
+
+## Context Engineering
+
+Context engineering, memory systems, multi-agent patterns, and prompt engineering.  
+**22 skills** · folder: [`context-engineering/`](context-engineering)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`agent-reach`](context-engineering/agent-reach) | 1 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) |
+| [`claude-memory-kit`](context-engineering/claude-memory-kit) | 3 | [awrshift/claude-memory-kit](https://github.com/awrshift/claude-memory-kit) |
+| [`context-engineering`](context-engineering/context-engineering) | 15 | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) |
+| [`data-structure-protocol`](context-engineering/data-structure-protocol) | 1 | [k-kolomeitsev/data-structure-protocol](https://github.com/k-kolomeitsev/data-structure-protocol) |
+| [`llm-wiki-manager`](context-engineering/llm-wiki-manager) | 1 | [sametbrr/llm-wiki-manager](https://github.com/sametbrr/llm-wiki-manager) |
+| [`neolab-prompt-engineering`](context-engineering/neolab-prompt-engineering) | 1 | [NeoLabHQ/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) |
+
+
+## Agent Workflows
+
+Meta-skills for how an agent operates: planning, browser automation, autonomous ralph loops, and skill discovery.  
+**9 skills** · folder: [`agent-workflows/`](agent-workflows)
+
+| Source | Skills | Upstream |
+|---|---|---|
+| [`browser-use`](agent-workflows/browser-use) | 2 | [browser-use/browser-use](https://github.com/browser-use/browser-use) |
+| [`find-skills`](agent-workflows/find-skills) | 1 | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
+| [`fullstackrecipes`](agent-workflows/fullstackrecipes) | 1 | [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) |
+| [`ralph-tui`](agent-workflows/ralph-tui) | 4 | [subsy/ralph-tui](https://github.com/subsy/ralph-tui) |
+| [`ralph-wiggum`](agent-workflows/ralph-wiggum) | 1 | [fstandhartinger/ralph-wiggum](https://github.com/fstandhartinger/ralph-wiggum) |
+
+
+## License
+
+Each skill retains the license of its upstream repository (see the individual folders / linked sources). This repository is a categorized mirror for convenience; no ownership is claimed over the collected skills.
+

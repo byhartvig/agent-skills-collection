@@ -1,0 +1,8 @@
+{
+  "name": "llm-wiki-manager",
+  "description": "Personal LLM-managed wiki: ingest sources, cross-reference pages, query with citations, and lint your markdown knowledge base",
+  "author": { "name": "sametbrr", "email": "sametbrr@gmail.com" },
+  "repository": "https://github.com/sametbrr/llm-wiki-manager",
+  "license": "MIT",
+  "keywords": ["wiki", "knowledge-management", "second-brain", "research"]
+}
