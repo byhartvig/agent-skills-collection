@@ -4,14 +4,6 @@ A curated, categorized library of **3,109 agent skills** across **12 categories*
 
 Skills are plain folders containing a `SKILL.md`. They work with Claude Code, Cowork, Codex, Cursor, Gemini CLI, and any agent that supports the standard skill format — drop a skill folder into your agent's skills directory.
 
-## Sources & attribution
-
-This collection is assembled from:
-
-- **[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** — the index used to locate official + community skills, surfaced via [officialskills.sh](https://officialskills.sh).
-- **[open-design](https://github.com/nexu-io/html-anything)** and its curated design catalogue — the design/UI/template skills.
-- The individual upstream repositories linked in each category below. All credit and licensing remain with the original authors.
-
 > ⚠️ **Security note:** these skills are collected, not audited. Skills can contain prompt injection or unsafe patterns. Review any skill before running it in an agent with tool access.
 
 ## Contents
