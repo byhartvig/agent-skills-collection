@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==82.0.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-skills-collection"
+version = "0.1.0"
+description = "Validate, search, inspect, and safely install skills from the Agent Skills Collection"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["PyYAML==6.0.3"]
+
+[project.optional-dependencies]
+dev = ["ruff==0.15.21"]
+
+[project.scripts]
+skills-collection = "skill_catalog.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,4384 @@
+{
+  "schema_version": 1,
+  "entries": {
+    "agent-workflows/browser-use/browser-use-d9f8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "agent-workflows/ralph-wiggum/ralph-wiggum": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "ai-and-media/openai/cloudflare-deploy": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "remote-shell-pipe"
+      ]
+    },
+    "ai-and-media/openai/render-deploy": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "ai-and-media/openai/sentry": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language",
+        "remote-shell-pipe"
+      ]
+    },
+    "ai-and-media/openai/speech": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "ai-and-media/openai/transcribe": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "ai-and-media/openai/vercel-deploy": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "authentication/auth0/auth0-android": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-aspnetcore-authentication": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-flask": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-flutter-native": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-flutter-web": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-ionic-angular": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-ionic-vue": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-maui": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-net-android": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-net-ios": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-spa-js": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-swift-major-migration": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-winforms": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/auth0-wpf": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/auth0/express-oauth2-jwt-bearer": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "authentication/better-auth/best-practices": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "authentication/better-auth/create-auth": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "authentication/better-auth/emailAndPassword": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "authentication/better-auth/organization": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "authentication/better-auth/twoFactor": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/apple-hig/hig-platforms": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "best-ui-ux/apple-hig/hig-technologies": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "best-ui-ux/gpt-tasteskill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/hand-drawn-diagrams": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "best-ui-ux/image-to-code-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/impeccable-design-polish": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language",
+        "permission-bypass"
+      ]
+    },
+    "best-ui-ux/platform-design/android": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/platform-design/ios": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/platform-design/ipados": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/platform-design/macos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/platform-design/tvos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/platform-design/visionos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/platform-design/watchos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/platform-design/web": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/redesign-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/soft-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/stitch-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/swiftui-design": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/taste-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "best-ui-ux/web-artifacts-builder": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "context-engineering/agent-reach/skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "context-engineering/claude-memory-kit/https%3A%2F%2Fgithub.com%2Fawrshift%2Fclaude-memory-kit": {
+      "issues": [
+        "name-folder-mismatch",
+        "nested-skill-packages"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "no-confirmation-language"
+      ]
+    },
+    "context-engineering/claude-memory-kit/https%3A%2F%2Fgithub.com%2Fawrshift%2Fclaude-memory-kit/.claude/skills/close-day": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "context-engineering/context-engineering/harness-engineering": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "context-engineering/context-engineering/hosted-agents": {
+      "issues": [],
+      "risk_signals": [
+        "destructive-git"
+      ]
+    },
+    "context-engineering/llm-wiki-manager/https%3A%2F%2Fgithub.com%2Fsametbrr%2Fllm-wiki-manager": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "databases/duckdb/install-duckdb": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "databases/firebase/firebase-basics": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "databases/firebase/firebase-data-connect-basics": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "databases/neon/claimable-postgres": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "databases/neon/score-eval": {
+      "issues": [
+        "missing-description"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/bitwize-music-studio__claude-ai-music-skills/album-art-director": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/bitwize-music-studio__claude-ai-music-skills/promo-writer": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/coreyhaines31__marketingskills/competitor-profiling": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/coreyhaines31__marketingskills/directory-submissions": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/coreyhaines31__marketingskills/marketing-loops": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/coreyhaines31__marketingskills/sales-enablement": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/ehmo__platform-design-skills/android": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/ehmo__platform-design-skills/ios": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/ehmo__platform-design-skills/ipados": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/ehmo__platform-design-skills/macos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/ehmo__platform-design-skills/tvos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/ehmo__platform-design-skills/visionos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/ehmo__platform-design-skills/watchos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/ehmo__platform-design-skills/web": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/fal-ai-community__skills/fal-workflow": {
+      "issues": [
+        "invalid-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/_upstream-collections/fal-ai-community__skills/genmedia": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/openai__skills/.curated/cloudflare-deploy": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "remote-shell-pipe"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/openai__skills/.curated/render-deploy": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/openai__skills/.curated/sentry": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language",
+        "remote-shell-pipe"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/openai__skills/.curated/speech": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/openai__skills/.curated/transcribe": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/openai__skills/.curated/vercel-deploy": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/openai__skills/.system/imagegen": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/pbakaus__impeccable/impeccable": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language",
+        "permission-bypass"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/raintree-technology__apple-hig-skills/hig-platforms": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/_upstream-collections/raintree-technology__apple-hig-skills/hig-technologies": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/artifacts-builder": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "design-ui-and-templates/brainstorming": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "design-ui-and-templates/brutalist-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/competitive-ads-extractor": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/d3-visualization": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/frontend-slides": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "design-ui-and-templates/gpt-tasteskill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/hand-drawn-diagrams": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "design-ui-and-templates/image-to-code-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/imagegen": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/minimalist-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/minimax-pdf": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "design-ui-and-templates/nanobanana-ppt": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "design-ui-and-templates/output-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/plan-design-review": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/redesign-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/soft-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/speech": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "design-ui-and-templates/stitch-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/swiftui-design": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/taste-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/taste-skill-v1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/video-downloader": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "design-ui-and-templates/web-artifacts-builder": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "design-ui-and-templates/youtube-clipper": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/app-store-connect-cli/asc-localize-metadata": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/app-store-connect-cli/asc-notarization": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/app-store-connect-cli/asc-ppp-pricing": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/aws-skills/aws-agentic-ai": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/claude-bootstrap/autonomous-testing": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/claude-bootstrap/build-in-public": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/claude-bootstrap/codex-review": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/claude-bootstrap/external-model-delegation": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/claude-bootstrap/maggy": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/claude-bootstrap/model-routing": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/claude-bootstrap/ticket-craft": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/claude-bootstrap/visual-validation": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/codex-collab/https%3A%2F%2Fgithub.com%2FKevin7Qi%2Fcodex-collab": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/analyzing-linux-system-artifacts": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/analyzing-sbom-for-supply-chain-vulnerabilities": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/analyzing-supply-chain-malware-artifacts": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/auditing-foundry-smart-contract-security": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/auditing-mcp-servers-for-tool-poisoning": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/building-attack-pattern-library-from-cti-reports": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/defending-llms-with-guardrails": {
+      "issues": [],
+      "risk_signals": [
+        "instruction-override-language"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/deploying-ransomware-canary-files": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/deploying-tailscale-for-zero-trust-vpn": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/detecting-ai-model-prompt-injection-attacks": {
+      "issues": [],
+      "risk_signals": [
+        "instruction-override-language",
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/detecting-aws-credential-exposure-with-trufflehog": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value",
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/detecting-compromised-cloud-credentials": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/detecting-cryptomining-in-cloud": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/detecting-evasion-techniques-in-endpoint-logs": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/detecting-serverless-function-injection": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/detecting-supply-chain-attacks-in-ci-cd": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/exploiting-bgp-hijacking-vulnerabilities": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/exploiting-broken-function-level-authorization": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/generating-and-analyzing-sboms": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/hardening-docker-daemon-configuration": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-aws-config-rules-for-compliance": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-bgp-security-with-rpki": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-canary-tokens-for-network-intrusion": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-epss-score-for-vulnerability-prioritization": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-honeypot-for-ransomware-detection": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-llm-guardrails-for-security": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value",
+        "instruction-override-language"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-privileged-session-monitoring": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "permission-bypass",
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-secret-scanning-with-gitleaks": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-security-chaos-engineering": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/implementing-soar-playbook-for-phishing": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/managing-third-party-vendor-risk": {
+      "issues": [
+        "description-too-long"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/cybersecurity-skills/performing-container-image-hardening": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "permission-bypass",
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/performing-cryptographic-audit-of-application": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/performing-disk-forensics-investigation": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/performing-iot-security-assessment": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/performing-linux-log-forensics-investigation": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/performing-phishing-simulation-with-gophish": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/performing-privilege-escalation-on-linux": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/performing-privileged-account-access-review": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/performing-ssl-stripping-attack": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/scanning-container-images-with-grype": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/scanning-containers-with-trivy-in-cicd": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/securing-container-registry-images": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/testing-api-for-broken-object-level-authorization": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/testing-for-sensitive-data-exposure": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/cybersecurity-skills/testing-prompt-injection-in-rag-pipelines": {
+      "issues": [],
+      "risk_signals": [
+        "instruction-override-language"
+      ]
+    },
+    "development-and-testing/dembrandt-skills/form-design": {
+      "issues": [],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/dev-agent-skills/creating-skills": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/ffuf-skill/ffuf-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/hand-drawn-diagrams/https%3A%2F%2Fgithub.com%2Fmuthuishere%2Fhand-drawn-diagrams": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/ios-simulator/ios-simulator-skill": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/joannis-swift/wendy-cloud-iterate": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/lambdatest-skills/ai-based-api": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/api-analyzer": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/lambdatest-skills/api-compliance": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/api-inference-from-files": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/lambdatest-skills/api-integration-helper": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/api-mocking": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/api-ratelimit-helper": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/api-security-patterns": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/gauge-skill": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/lambdatest-skills/graphql-grpc-helper": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/newman-cicd-helper": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/popular-api-fetcher": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/postman-testcase-generator": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/lambdatest-skills/postman-to-newman": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-animation": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-app-structure": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-design-judgment": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-dsl": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-events": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-layout": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-migration": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-performance": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-shaders": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-splash": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-theme": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-troubleshooting": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-vector": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/makepad-skills/makepad-2.0-widgets": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/mattpocock-skills/git-guardrails-claude-code": {
+      "issues": [],
+      "risk_signals": [
+        "destructive-git"
+      ]
+    },
+    "development-and-testing/mattpocock-skills/loop-me": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/mcollina-skills/fastify": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/mcollina-skills/node": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/metalbear-skills/mirrord-db-branching": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/metalbear-skills/mirrord-kafka": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/metalbear-skills/mirrord-operator": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/model-hierarchy/https%3A%2F%2Fgithub.com%2Fzscole%2Fmodel-hierarchy-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/moyu/moyu-0762": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/moyu/moyu-47ce": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/moyu/moyu-8535": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/moyu/moyu-a21c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/moyu/moyu-en": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/moyu/moyu-en-7389": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/moyu/moyu-en-9721": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/moyu/moyu-en-c9e9": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/moyu/moyu-en-ef1d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/neolab-context-eng-kit/plan-task": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/platform-design/android": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/platform-design/ios": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/platform-design/ipados": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/platform-design/macos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/platform-design/tvos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/platform-design/visionos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/platform-design/watchos": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/platform-design/web": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/playwright-best-practices/https%3A%2F%2Fgithub.com%2Fcurrents-dev%2Fplaywright-best-practices-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/pypict-skill/https%3A%2F%2Fgithub.com%2Fomkamal%2Fpypict-claude-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/rails-conventions/https%3A%2F%2Fgithub.com%2Fethos-link%2Frails-conventions": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/recursive-decomposition/recursive-decomposition": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/skill-rails-upgrade/https%3A%2F%2Fgithub.com%2Frobzolkos%2Fskill-rails-upgrade": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/chat": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/chat_empty": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/chat_single": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/chat_topics": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/epub": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/epub_kw": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/html": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/html_kw": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/html_multi": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/jupyter": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/jupyter_dir": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/jupyter_kw": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/jupyter_topics": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/man": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/man_kw": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/man_single": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/pdf": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/pdf_chapters": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/pdf_kw": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/pptx": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/pptx_kw": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/rss": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/rss_empty": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/skill-seekers": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/skill-seekers/word": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/superpowers/brainstorming": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/superpowers/finishing-a-development-branch": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/superpowers/subagent-driven-development": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/superpowers/using-git-worktrees": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/taste-skill/brutalist-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/gpt-tasteskill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/image-to-code-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/minimalist-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/output-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/redesign-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/soft-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/stitch-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/taste-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/taste-skill/taste-skill-v1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/terraform-skill/terraform-skill": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value",
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/testdino-playwright/https%3A%2F%2Fgithub.com%2Ftestdino-hq%2Fplaywright-skill": {
+      "issues": [
+        "name-folder-mismatch",
+        "nested-skill-packages"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/testdino-playwright/https%3A%2F%2Fgithub.com%2Ftestdino-hq%2Fplaywright-skill/ci": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/testdino-playwright/https%3A%2F%2Fgithub.com%2Ftestdino-hq%2Fplaywright-skill/core": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/testdino-playwright/https%3A%2F%2Fgithub.com%2Ftestdino-hq%2Fplaywright-skill/migration": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/testdino-playwright/https%3A%2F%2Fgithub.com%2Ftestdino-hq%2Fplaywright-skill/pom": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/ui-ux-pro-max/banner-design-acba": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/ui-ux-pro-max/brand-65c5": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/ui-ux-pro-max/design-2e00": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/ui-ux-pro-max/design-system-49fd": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/ui-ux-pro-max/slides-8199": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/ui-ux-pro-max/ui-styling-25b1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/understand-anything/understand": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/understand-anything/understand-knowledge": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/varlock-skill/varlock": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills": {
+      "issues": [
+        "name-folder-mismatch",
+        "nested-skill-packages"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "credential-shaped-value",
+        "destructive-git",
+        "instruction-override-language",
+        "no-confirmation-language",
+        "permission-bypass",
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/LQF_Machine_Learning_Expert_Guide": {
+      "issues": [
+        "invalid-name"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/autonomous-builder": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "destructive-git",
+        "no-confirmation-language",
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/denario": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/deslop": {
+      "issues": [
+        "invalid-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/digital-brain": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/document-skills": {
+      "issues": [
+        "nested-skill-packages"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/error-resolver": {
+      "issues": [
+        "invalid-name",
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "destructive-git",
+        "permission-bypass"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/g2-legend-expert": {
+      "issues": [
+        "invalid-name",
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/imagegen": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/knowledge-steward": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/markdown-mermaid-writing": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/mcp-integration": {
+      "issues": [
+        "invalid-name",
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/pymc": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/sentry": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/speckit-checklist": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/speech": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/superclaude-framework-compat": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/transcribe": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/unsloth": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "remote-shell-pipe"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/vercel-deploy": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "development-and-testing/vibe-skills/https%3A%2F%2Fgithub.com%2Fforyourhealth111-pixel%2FVibe-Skills/bundled/skills/verification-quality-assurance": {
+      "issues": [
+        "invalid-name",
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "destructive-git"
+      ]
+    },
+    "email-and-notion/notion/knowledge-capture": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "email-and-notion/notion/meeting-intelligence": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "email-and-notion/notion/research-documentation": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "email-and-notion/notion/spec-to-implementation": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "email-and-notion/resend/agent-email-inbox": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "email-and-notion/resend/resend-cli": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "frontend-and-frameworks/expo/expo-brownfield": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "frontend-and-frameworks/expo/expo-skill-eval": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "permission-bypass"
+      ]
+    },
+    "frontend-and-frameworks/expo/upgrading-expo": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "frontend-and-frameworks/sleek-design/design-mobile-apps": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "frontend-and-frameworks/vercel-agent-skills/composition-patterns": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "frontend-and-frameworks/vercel-agent-skills/deploy-to-vercel": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "frontend-and-frameworks/vercel-agent-skills/react-best-practices": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "frontend-and-frameworks/vercel-agent-skills/react-native-skills": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "frontend-and-frameworks/vercel-agent-skills/react-view-transitions": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "frontend-and-frameworks/vercel-ai/adr-skill": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "frontend-and-frameworks/vercel-ai/use-ai-sdk": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "frontend-and-frameworks/vercel-next/next-cache-components-adoption": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/ai-marketing-skills/meeting-prep": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/ai-marketing-skills/voice-extractor": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/aso-skills/aso-router": {
+      "issues": [
+        "invalid-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/aso-skills/onboarding-optimization": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/beautiful-prose/https%3A%2F%2Fgithub.com%2FSHADOWPR0%2Fbeautiful_prose": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/claude-seo/seo-dataforseo-86b5": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/claude-seo/seo-google": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "marketing-and-advertising/claude-seo/seo-image-gen-ea67": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/corey-haines/competitor-profiling": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/corey-haines/directory-submissions": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/corey-haines/marketing-loops": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/corey-haines/sales-enablement": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/a-b-test-design-a4a5": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ab-testing-3bc8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ab-testing-be8a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/academic-cv-builder-a78d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/accessibility-audit-533f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/accessibility-test-plan-54ae": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ad-creative-4435": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ad-creative-78dd": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ads-25d0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ads-db89": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/aesthetic-usability-3da8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/affinity-diagram-0dfa": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/agile-product-owner-c60e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ai-seo-2d3b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ai-seo-ef3b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/analytics-53d3": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/analytics-cf18": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/animation-principles-df62": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/anydesign-1bd0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/api-docs-quality-report-a16d": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/application-form-filler-7100": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/apply-00de": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-4427": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-a577": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-analyze-447b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-analyze-e330": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-audio-5129": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-audio-e90f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-audit-254b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-audit-6e2c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-brand-77d0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-brand-d0db": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-brief-3394": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-brief-8be1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-calendar-aa0d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-calendar-b2c2": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-cannibalization-0a0f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-cannibalization-3060": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-chart-7f81": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-chart-cb5c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-cluster-02d0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-cluster-9651": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-discourse-8c62": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-discourse-9f10": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-factcheck-40ed": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-factcheck-51db": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-flow-ce4a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-flow-e3dc": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-geo-62b3": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-geo-b1a1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-google-7f74": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-google-8630": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-image-3f51": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-image-87f4": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-locale-audit-002c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-locale-audit-3350": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-localize-27c0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-localize-df6d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-multilingual-0659": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-multilingual-cc2a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-notebooklm": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/blog-notebooklm-0d44": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/blog-notebooklm-ad46": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/blog-outline-1aaf": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-outline-e358": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-persona-2223": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-persona-76fd": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-post-counter-3954": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-repurpose-363d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-repurpose-e34c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-rewrite-5423": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-rewrite-83e2": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-schema-09cb": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-schema-8ee7": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-seo-check-2c46": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-seo-check-5a02": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-strategy-7c2c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-strategy-e9d1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-taxonomy-578a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-taxonomy-57e7": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-translate-350f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-translate-3fc4": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-write-2173": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/blog-write-263a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/brainstorming": {
+      "issues": [],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/brainstorming-24dd": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/brief-outline-generator-af82": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/business-design-988b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/capture-9655": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/card-sort-analysis-f32f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/career-changer-translator-8a97": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/case-study-fa81": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/churn-prevention-5158": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/churn-prevention-b175": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/claude-md-starter": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/claude-md-starter-5cea": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/click-test-plan-5f3f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/code-reviewer-31f6": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/cold-email": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/cold-email-548c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/cold-email-bff0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/cold-email-writer-14e7": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/color-system-47dc": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/community-marketing-1737": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/community-marketing-d3d2": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/competitive-analysis-cf46": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/competitor-profiling": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/competitor-profiling-de88": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/competitor-profiling-ea1b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/competitors-364c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/competitors-b0c5": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/component-spec-681d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/content-brief-03e8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/content-strategy-18eb": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/content-strategy-2d1b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/content-strategy-edb8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/copywriting-591b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/copywriting-66de": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/cover-letter-685c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/cover-letter-generator-9483": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/creative-portfolio-resume-451c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/critique-affordance-f76c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/critique-brand-consistency-feec": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/critique-color-1832": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/critique-composition-657e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/critique-information-density-ed07": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/critique-typography-7226": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/critique-visual-hierarchy-bd41": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/cro-5ecf": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/cro-9b2d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/customer-research-8f53": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/customer-research-9230": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/dark-mode-design-c884": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/data-visualization-5e11": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-brief-a36c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-critique-7c67": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-debt-audit-c58f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-impact-reporting-1606": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-negotiation-e876": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-principles-a321": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-qa-checklist-d3d8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-rationale-9e04": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-review-process-944b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-sprint-plan-300f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-system-adoption-db5c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-system-governance-e24e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-token-750b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/design-token-audit-7c9e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/diary-study-plan-2795": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/docs-auditor": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/docs-auditor-faae": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/documentation-template-3c15": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/doherty-threshold-1bf1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/emails-07da": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/emails-3f42": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/empathy-map-f4ae": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/error-handling-ux-e110": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/executive-resume-writer-b455": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/experience-map-fd5c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/feedback-patterns-8461": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/fitts-law-bc10": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/form-design-7d82": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/free-tools-3631": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/free-tools-b35e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/frontend-design-a5cb": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/geo-optimizer-9e03": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/geo-seo-claude": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/geo-seo-claude-5030": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/gesture-patterns-2d6d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/growth-report": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/growth-report-8aed": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/handoff-spec-6b59": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/heuristic-evaluation-d17f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/hicks-law-85bc": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/icon-system-91fd": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/illustration-style-e016": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/inbox-0425": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/information-architecture-d293": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/interface-design-d50c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/interfaces-that-feel-f943": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/interview-prep-generator-964f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/interview-script-e861": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/job-description-analyzer-80ec": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/job-search-6bec": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/jobs-to-be-done-a423": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/journey-map-c5ba": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/karpathy-guidelines-3826": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/keyword-clustering-2b90": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/landing-page-auditor-727c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/launch-2373": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/launch-d2a8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/law-of-common-region-87e1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/law-of-proximity-18de": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/layout-grid-fed8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/lead-magnets-3b3a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/lead-magnets-8824": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/linkedin-profile-optimizer-2fd9": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/llms-txt-checker-7747": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/loading-states-638d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/localization-design-bf21": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/marketing-ideas-223d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/marketing-ideas-9f60": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/meeting-notes-8a05": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/metrics-definition-6947": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/micro-interaction-spec-1d4b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/millers-law-b65c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/motion-system-7737": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/naming-convention-03dd": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/navigation-patterns-a873": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/network-scan-497c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/no-outlinks-audit-a247": {
+      "issues": [
+        "missing-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/north-star-vision-d280": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/offer-comparison-analyzer-fee4": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ogilvy-copywriting-d0e3": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ogilvy-copywriting-f213": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/onboarding-5024": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/onboarding-c86d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/onboarding-design-a4af": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/opportunity-framework-b494": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/organic-growth-advisor-a04b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/orphan-pages-internal-linking-opportunities-56df": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/pattern-library-a2a9": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/pm-skill-creator-2718": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/portfolio-case-study-writer-d123": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/pr-review-expert-caff": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/prd-development-c006": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/presentation-deck-368e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/pricing-4b55": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/pricing-e0ca": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/prioritization-advisor-92d0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/product-manager-toolkit": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/product-manager-toolkit-08d4": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/product-strategist-3e59": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/programmatic-seo-0ea6": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/programmatic-seo-353a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/prototype-strategy-64a2": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/readable-measure-ccc2": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/reddit-comments": {
+      "issues": [
+        "invalid-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/reddit-comments-a888": {
+      "issues": [
+        "invalid-frontmatter"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/reference-list-builder-ca99": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/referrals-1f5e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/referrals-410d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/reflect-1234": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/research-repository-7b18": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/responsive-design-36f5": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/resume-ats-optimizer-fabb": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/resume-bullet-writer-2e93": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/resume-formatter-bfd0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/resume-quantifier-9679": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/resume-section-builder-9f9d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/resume-tailor-5962": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/resume-version-manager-475a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/revops-22ce": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/revops-e344": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/salary-negotiation-prep-0070": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/sales-enablement": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/sales-enablement-5510": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/sales-enablement-ad4f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/schema-7c41": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/schema-fbcc": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/sdk-docs-auditor": {
+      "issues": [],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/sdk-docs-auditor-9c44": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/search-ux-d8d4": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/senior-architect-7e43": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-a487": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-ahrefs-79a9": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-ahrefs-de3f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-audit-a322": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-audit-d69a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-audit-ed53": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-backlinks-a1c0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-bing-275a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-bing-9cdb": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-cluster-a1a3": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-competitor-pages-60e7": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-content-brief-8f3a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-content-ee9c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-dataforseo-77f1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-dataforseo-b980": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-dataforseo-e063": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-drift-d01f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-ecommerce-e3fb": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-firecrawl-1ee8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-firecrawl-d697": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-flow-a2af": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-geo-cb5a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-google": {
+      "issues": [],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/seo-google-f0ad": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "credential-shaped-value"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/seo-hreflang-b52a": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-image-gen-0761": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-image-gen-3138": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-image-gen-a7b6": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-images-f38c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-local-e04e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-maps-a6ef": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-page-e4df": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-plan-dd10": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-profound-d4bf": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-profound-f071": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-programmatic-c2d0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-schema-aba7": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-seranking-89ba": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-seranking-d736": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-sitemap-9352": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-sxo-2b90": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-technical-530c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-unlighthouse-0770": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/seo-unlighthouse-f2e3": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/service-blueprint-0d46": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/site-architecture-e656": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/social-09f8": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/social-7afc": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/social-media-posts-47ea": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/social-media-posts-a0f1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/spacing-system-d03c": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/stakeholder-alignment-afe7": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/state-machine-d773": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/stop-slop-bb72": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/stop-slop-c2e4": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/summarize-interview-af27": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/survey-design-9c12": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/tailor-resume-4102": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/team-workflow-ba69": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/tech-resume-optimizer-9556": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/test-driven-development-df04": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/test-scenario-bfaf": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/theming-system-9ca1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/typography-scale-8cfd": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/usability-test-plan-e5f3": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/user-flow-diagram-0c30": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/user-persona-ec00": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/user-story-mapping-29c1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/using-superpowers-3e29": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ux-researcher-designer-1d29": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/ux-writing-df48": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/version-control-strategy-5655": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/visual-hierarchy-0130": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/von-restorff-effect-56c0": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/web-design-guidelines-7a9b": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/wireframe-spec-f44d": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/dev-gtm/workflow-builder": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/dev-gtm/workflow-builder-1fd1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/digital-marketing-pro/add-integration": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/digital-marketing-pro/context-engine": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/digital-marketing-pro/cro": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/digital-marketing-pro/influencer-creator": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/digital-marketing-pro/marketing-automation": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/digital-marketing-pro/reputation-management": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    },
+    "marketing-and-advertising/email-marketing-bible/https%3A%2F%2Fgithub.com%2FCosmoBlk%2Femail-marketing-bible": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/humanizer/https%3A%2F%2Fgithub.com%2Fblader%2Fhumanizer": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/notfair/audit": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/notfair/audit-073e": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/notfair/copy": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/notfair/landing": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/notfair/manage": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/notfair/manage-3527": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/notfair/notfair-upgrade-skill": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete",
+        "destructive-git"
+      ]
+    },
+    "marketing-and-advertising/notfair/seo-analysis": {
+      "issues": [
+        "description-too-long"
+      ],
+      "risk_signals": [
+        "remote-shell-pipe"
+      ]
+    },
+    "marketing-and-advertising/notfair/seo-page": {
+      "issues": [
+        "description-too-long"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/postiz-agent/https%3A%2F%2Fgithub.com%2Fgitroomhq%2Fpostiz-agent": {
+      "issues": [
+        "name-folder-mismatch",
+        "nested-skill-packages"
+      ],
+      "risk_signals": [
+        "broad-recursive-delete"
+      ]
+    },
+    "marketing-and-advertising/unslop/unslop": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-1ca7": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-4d90": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-87f4": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-b4c1": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-commit-af9f": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-file-00b5": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-help-15df": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-reasoning-37b9": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/unslop/unslop-review-e099": {
+      "issues": [
+        "name-folder-mismatch"
+      ],
+      "risk_signals": []
+    },
+    "marketing-and-advertising/x-twitter-scraper/x-twitter-scraper": {
+      "issues": [],
+      "risk_signals": [
+        "no-confirmation-language"
+      ]
+    }
+  }
+}

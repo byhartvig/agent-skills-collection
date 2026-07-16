@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "profiles": {
+    "app-store-growth": {
+      "description": "App Store positioning, keywords, screenshots, analytics, retention, and launch",
+      "skills": [
+        "marketing-and-advertising/aso-skills/aso-audit",
+        "marketing-and-advertising/aso-skills/keyword-research",
+        "marketing-and-advertising/aso-skills/metadata-optimization",
+        "marketing-and-advertising/aso-skills/screenshot-optimization",
+        "marketing-and-advertising/aso-skills/app-analytics",
+        "marketing-and-advertising/aso-skills/retention-optimization",
+        "marketing-and-advertising/aso-skills/app-launch"
+      ]
+    },
+    "design-starter": {
+      "description": "Design direction, implementation, accessibility, motion, and review",
+      "skills": [
+        "best-ui-ux/design-brief",
+        "best-ui-ux/frontend-design",
+        "best-ui-ux/fixing-accessibility",
+        "best-ui-ux/fixing-motion-performance",
+        "best-ui-ux/design-review"
+      ]
+    },
+    "frontend-next": {
+      "description": "A compact Next.js, Vercel, TypeScript, and web quality toolkit",
+      "skills": [
+        "frontend-and-frameworks/vercel-next/next-dev-loop",
+        "frontend-and-frameworks/vercel-next/next-cache-components-optimizer",
+        "frontend-and-frameworks/vercel-agent-skills/web-design-guidelines",
+        "frontend-and-frameworks/vercel-agent-skills/vercel-optimize",
+        "frontend-and-frameworks/wshobson-agents/typescript-advanced-types"
+      ]
+    },
+    "marketing-foundations": {
+      "description": "Positioning, planning, copy, pricing, analytics, and launch fundamentals",
+      "skills": [
+        "marketing-and-advertising/ai-marketing-skills/positioning-basics",
+        "marketing-and-advertising/corey-haines/marketing-plan",
+        "marketing-and-advertising/corey-haines/copywriting",
+        "marketing-and-advertising/corey-haines/pricing",
+        "marketing-and-advertising/corey-haines/analytics",
+        "marketing-and-advertising/corey-haines/launch"
+      ]
+    },
+    "postgres-stack": {
+      "description": "Postgres, schema/query design, Supabase, Neon, and Drizzle",
+      "skills": [
+        "databases/supabase/supabase-postgres-best-practices",
+        "databases/neon/neon-postgres",
+        "databases/drizzle/drizzle-queries",
+        "databases/planetscale/postgres"
+      ]
+    }
+  }
+}
+
